@@ -1,0 +1,19 @@
+name: ovn
+summary: SDN via OVN
+maintainer: Aakash <aakashkt0@gmail.com>
+description: |
+  Overlay networking via OVN and OVS
+tags:
+  - networking
+subordinate: true
+requires:
+  cni:
+    interface: kubernetes-cni
+    scope: container
+peers:
+  master-config:
+    interface: master-config
+
+series:
+  - xenial
+  - trusty

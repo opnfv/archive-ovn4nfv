@@ -1,0 +1,2 @@
+includes: ['layer:basic', 'interface:kubernetes-cni', 'interface:master-config']
+repo: 'https://github.com/AakashKT/charm-ovn.git'
