@@ -6,15 +6,15 @@
 Abstract
 ========
 
-This document compiles the release notes for the Euphrates release of
-OPNFV when using Apex/Joid as a deployment tool.
+This document compiles the release notes for OPNFV release when using Apex,
+Joid and Fuel as a deployment tool.
 
 ===============
 Important Notes
 ===============
 
-These notes provides release information for the use of Apex/Joid as deployment
-tool for the Euphrates release of OPNFV.
+These notes provides release information for the use of Apex, Joid and Fuel
+as deployment tool for the Euphrates release of OPNFV.
 
 The goal of the Euphrates release and this Joid/Apex-based deployment process is
 to establish a lab ready platform accelerating further development
@@ -26,9 +26,9 @@ Carefully follow the installation-instructions.
 Summary
 =======
 
-For Euphrates, OVN4NFV is supported with APEX and JOID installers.
+For Fraser release, OVN4NFV is supported with APEX, JOID and FUEL installers.
 
-This Euphrates artifact provides Apex/Joid as the deployment stage tool in the
+This Fraser artifact provides Apex, Joind and Fuel as the deployment stage tool in the
 OPNFV CI pipeline including:
 
 - Documentation built by Jenkins
@@ -39,7 +39,7 @@ OPNFV CI pipeline including:
 
   - installation instructions
 
-- Automated validation of the Euphrates deployment.
+- Automated validation of the Fraser deployment.
 
 ============
 Release Data
@@ -49,16 +49,18 @@ Release Data
 | **Project**                          | ovn4nfv                              |
 |                                      |                                      |
 +--------------------------------------+--------------------------------------+
-| **Repo/tag**                         | opnfv-5.0.0                          |
+| **Repo/tag**                         | opnfv-6.0.0                          |
 |                                      |                                      |
 +--------------------------------------+--------------------------------------+
-| **Release designation**              | Euphrates 5.1                        |
+| **Release designation**              | Fraser 6.1                           |
 |                                      |                                      |
 +--------------------------------------+--------------------------------------+
-| **Release date**                     | December 15 2017                     |
+| **Release date**                     | April 27 2018                        |
 |                                      |                                      |
 +--------------------------------------+--------------------------------------+
-| **Purpose of the delivery**          | Bug fixes                            |
+| **Purpose of the delivery**          | Bug fixes,                           |
+|                                      | Document improvements,               |
+|                                      | Scenario documentation.              |
 +--------------------------------------+--------------------------------------+
 
 
@@ -72,14 +74,18 @@ Software Deliverables
 
 - `Joid based installation <https://git.opnfv.org/joid>`_
 
+- `Fuel based installation <https://git.opnfv.org/fuel>`_
+
 Documentation Deliverables
 --------------------------
 
-- `Installation instructions <http://docs.opnfv.org/en/stable-euphrates/submodules/ovn4nfv/docs/development/openstack-networking-ovn.html#install-configuration>`_
+- `Installation instructions <https://git.opnfv.org/ovn4nfv/tree/docs/development/openstack-networking-ovn.rst?h=stable/fraser>`_
 
 - Release notes (This document)
 
-- `User guide and Testing notes <http://docs.opnfv.org/en/stable-euphrates/submodules/ovn4nfv/docs/testing/testing-notes.html>`_
+- `User guide and Testing notes <https://git.opnfv.org/ovn4nfv/tree/docs/testing/testing-notes.rst?h=stable/fraser>`_
+
+- `Scenario Documentation (JOID - K8S-OVN) <https://git.opnfv.org/ovn4nfv/tree/docs/scenarios/JOID/k8s-ovn-lb-noha.rst?h=stable/fraser>`_
 
 
 ==========
@@ -93,7 +99,7 @@ OPNFV
 1) `OPNFV Home Page <http://www.opnfv.org>`_
 2) `OPNFV Documentation <http://docs.opnfv.org>`_
 3) `OPNFV Software Downloads <https://www.opnfv.org/software/download>`_
-4) `OVN4NFV Project <>`_
+4) `OVN4NFV Project <https://wiki.opnfv.org/display/PROJ/Ovn4nfv>`_
 
 OpenStack
 =========
