@@ -1,3 +1,5 @@
+.. _ovn4nfv-releasenotes:
+
 .. This work is licensed under a Creative Commons Attribution 4.0 International License.
 .. http://creativecommons.org/licenses/by/4.0
 .. (c) Open Platform for NFV Project, Inc. and its contributors
@@ -13,11 +15,11 @@ Joid and Fuel as a deployment tool.
 Important Notes
 ===============
 
-These notes provides release information for the use of Apex, Joid and Fuel
-as deployment tool for the Euphrates release of OPNFV.
+This notes provides release information for the use of Apex, Joid and Fuel
+as deployment tool for the Fraser release of OPNFV.
 
-The goal of the Euphrates release and this Joid/Apex-based deployment process is
-to establish a lab ready platform accelerating further development
+The goal of the Fraser release and this Apex, Fuel and Joid based deployment
+process is to establish a lab ready platform accelerating further development
 of the OPNFV infrastructure.
 
 Carefully follow the installation-instructions.
@@ -52,15 +54,17 @@ Release Data
 | **Repo/tag**                         | opnfv-6.0.0                          |
 |                                      |                                      |
 +--------------------------------------+--------------------------------------+
-| **Release designation**              | Fraser 6.1                           |
+| **Release designation**              | Fraser 6.0                           |
 |                                      |                                      |
 +--------------------------------------+--------------------------------------+
 | **Release date**                     | April 27 2018                        |
 |                                      |                                      |
 +--------------------------------------+--------------------------------------+
-| **Purpose of the delivery**          | Bug fixes,                           |
-|                                      | Document improvements,               |
-|                                      | Scenario documentation.              |
+| **Purpose of the delivery**          | > Bug fixes,                         |
+|                                      | > Document improvements,             |
+|                                      | > Scenario documentation.            |
+|                                      | > OVN no-feature scenario support    |
+|                                      |   with Fuel installer.               |
 +--------------------------------------+--------------------------------------+
 
 
