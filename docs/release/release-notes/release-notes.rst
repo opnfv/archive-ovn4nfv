@@ -60,11 +60,9 @@ Release Data
 | **Release date**                     | April 27 2018                        |
 |                                      |                                      |
 +--------------------------------------+--------------------------------------+
-| **Purpose of the delivery**          | > Bug fixes,                         |
-|                                      | > Document improvements,             |
-|                                      | > Scenario documentation.            |
-|                                      | > OVN no-feature scenario support    |
-|                                      |   with Fuel installer.               |
+| **Purpose of the delivery**          | Bug fixes, Document improvements,    |
+|                                      | Scenario documentation,              |
+|                                      | OVN support in Fuel installer.       |
 +--------------------------------------+--------------------------------------+
 
 
