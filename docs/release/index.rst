@@ -7,10 +7,10 @@ OVN4NFV Release Notes
 
 :Project: OVN4NFV, https://wiki.opnfv.org/display/PROJ/Ovn4nfv
 
-:Editors: Vikram Dham (Huawei)
-:Authors: Vikram Dham (Huawei)
+:Editors: Trinath Somanchi (NXP)
+:Authors: Prasad Gorja (NXP)
           Trinath Somanchi (NXP)
-          Prakash Ramchandran (Huawei)
+          Prakash Ramchandran (Dell)
 
 :Abstract: OVN4NFV Release Notes.
 
