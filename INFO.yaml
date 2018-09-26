@@ -1,0 +1,60 @@
+---
+project: 'OVN for NFV (OVN4NFV)'
+project_creation_date: 'Feb 7th 2017'
+project_category: 'Collaborative Development'
+lifecycle_state: 'Incubation'
+project_lead: &opnfv_ovn4nfv_ptl
+    name: 'Trinath Somanchi'
+    email: 'trinath.somanchi@nxp.com'
+    company: 'NXP'
+    id: 'SomanchiTrinath'
+primary_contact: *opnfv_ovn4nfv_ptl
+issue_tracking:
+    type: 'jira'
+    url: 'https://jira.opnfv.org/projects/OVN4NFV'
+    key: 'OVN4NFV'
+mailing_list:
+    type: 'mailman2'
+    url: 'opnfv-tech-discuss@lists.opnfv.org'
+    tag: '[OVN4NFV]'
+realtime_discussion:
+    type: irc
+    server: 'freenode.net'
+    channel: '#opnfv-ovn4nfv'
+meetings:
+    - type: 'irc'
+      agenda: 'https://wiki.opnfv.org/display/OV/Meeting+Agenda'
+      url:  # eg: 'https://global.gotomeeting.com/join/819733085'
+      server: 'freenode.net'
+      channel: '#ovn4nfv-meeting'
+      repeats: 'weekly'
+      time:  '15:30 UTC'
+repositories:
+    - 'ovn4nfv'
+    - 'ovn4nfv-k8s-plugin'
+committers:
+    - <<: *opnfv_ovn4nfv_ptl
+    - name: 'Vikram Dham'
+      email: 'vikramdham@gmail.com'
+      company: 'gmail.com'
+      id: 'vikramdham'
+    - name: 'Trevor Bramwell'
+      email: 'tbramwell@linuxfoundation.org'
+      company: 'linuxfoundation.org'
+      id: 'bramwelt'
+    - name: 'Narinder Gupta'
+      email: 'narinder.gupta@canonical.com'
+      company: 'canonical.com'
+      id: 'narindergupta'
+    - name: 'Tim Rozet'
+      email: 'trozet@redhat.com'
+      company: 'redhat.com'
+      id: 'trozet'
+    - name: 'Sridhar Pothuganti'
+      email: 'sridhar.pothuganti@nxp.com'
+      company: 'nxp.com'
+      id: 'sridharpothuganti'
+tsc:
+    # yamllint disable rule:line-length
+    approval: 'http//meetbot.opnfv.org/meetings/opnfv-meeting/2015/opnfv-meeting.2015-12-15-14.59.html'
+    # yamllint enable rule:line-length
