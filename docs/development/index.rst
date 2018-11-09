@@ -22,4 +22,4 @@ OVN4NFV Development
 
    openstack-networking-ovn.rst
    ovn-for-nfv.rst
-   configuration-guide.rst
+   ovn-sfc-openstack.rst
