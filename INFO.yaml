@@ -5,8 +5,8 @@ project_category: 'Collaborative Development'
 lifecycle_state: 'Incubation'
 project_lead: &opnfv_ovn4nfv_ptl
     name: 'Trinath Somanchi'
-    email: 'trinath.somanchi@nxp.com'
-    company: 'NXP'
+    email: 't.somanchi@f5.com'
+    company: 'F5 Networks'
     id: 'SomanchiTrinath'
 primary_contact: *opnfv_ovn4nfv_ptl
 issue_tracking:
@@ -34,26 +34,14 @@ repositories:
     - 'ovn4nfv-k8s-plugin'
 committers:
     - <<: *opnfv_ovn4nfv_ptl
-    - name: 'Vikram Dham'
-      email: 'vikramdham@gmail.com'
-      company: 'gmail.com'
-      id: 'vikramdham'
     - name: 'Trevor Bramwell'
       email: 'tbramwell@linuxfoundation.org'
       company: 'linuxfoundation.org'
       id: 'bramwelt'
-    - name: 'Narinder Gupta'
-      email: 'narinder.gupta@canonical.com'
-      company: 'canonical.com'
-      id: 'narindergupta'
-    - name: 'Tim Rozet'
-      email: 'trozet@redhat.com'
-      company: 'redhat.com'
-      id: 'trozet'
-    - name: 'Sridhar Pothuganti'
-      email: 'sridhar.pothuganti@nxp.com'
-      company: 'nxp.com'
-      id: 'sridharpothuganti'
+    - name: 'Ritu Sood'
+      email: 'ritu.sood@intel.com'
+      company: 'intel.com'
+      id: 'ritusood'
 tsc:
     # yamllint disable rule:line-length
     approval: 'http//meetbot.opnfv.org/meetings/opnfv-meeting/2015/opnfv-meeting.2015-12-15-14.59.html'
