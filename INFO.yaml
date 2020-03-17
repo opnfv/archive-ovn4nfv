@@ -28,7 +28,7 @@ meetings:
       server: 'freenode.net'
       channel: '#ovn4nfv-meeting'
       repeats: 'weekly'
-      time:  '15:30 UTC'
+      time: '15:30 UTC'
 repositories:
     - 'ovn4nfv'
     - 'ovn4nfv-k8s-plugin'
